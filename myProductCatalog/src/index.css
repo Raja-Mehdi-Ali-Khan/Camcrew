@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(22, 21, 21);
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    /* Add your mobile-specific styles here */
+    display: flex;
+    justify-content: center;
+    width: 100vw; /* Remove any unnecessary margin */
+    /* Add any other styles specific to mobile screens */
+  }
+}
